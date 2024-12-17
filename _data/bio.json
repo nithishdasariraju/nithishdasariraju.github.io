@@ -1,118 +1,137 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Nithish Dasariraju",
+    "label": "Software Engineer",
+    "picture": "https://github.com/nithishdasariraju.png",
+    "email": "dasarirajunithish22@gmail.com",
+    "phone": "814-844-2112",
+    "website": "https://nithishdasariraju.github.io",
+    "summary": "Entry-level Software Engineer with a strong foundation in computer science principles, proficient in Python, C, Java, and C++. Skilled in designing and developing scalable, distributed systems, and solving complex problems. Passionate about advancing cloud infrastructure innovations with a focus on secure, efficient, and optimized code.",
+    "location": {
+      "address": "",
+      "postalCode": "16507",
+      "city": "Erie",
+      "countryCode": "USA",
+      "region": "Pennsylvania"
+    },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      {
+        "network": "github",
+        "username": "nithishdasariraju",
+        "url": "https://github.com/nithishdasariraju"
+      },
+      {
+        "network": "linkedin",
+        "username": "Nithish Dasariraju",
+        "url": "https://www.linkedin.com/in/nithish-dasariraju/"
+      }
     ]
   },
-  "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
-  ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "name": "Programming Languages",
+      "keywords": ["C", "C++", "Python", "Java"]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Development Tools",
+      "keywords": ["Git", "Visual Studio", "Docker", "Linux"]
+    },
+    {
+      "name": "Cloud Platforms",
+      "keywords": ["AWS", "Google Cloud Platform (GCP)", "Azure"]
+    },
+    {
+      "name": "Web Development",
+      "keywords": ["Django", "Bootstrap", "RESTful API", "Postman", "NPM"]
+    },
+    {
+      "name": "Databases",
+      "keywords": ["SQL", "MongoDB", "NoSQL", "PL/SQL"]
+    },
+    {
+      "name": "Automation & DevOps Tools",
+      "keywords": ["Jenkins", "Appium", "Selenium", "CI/CD"]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "courses": [
-      ]
+      "institution": "Gannon University",
+      "area": "Information Technology",
+      "studyType": "Master of Science",
+      "startDate": "2022-08-21",
+      "endDate": "2024-12-13",
+      "location": "Erie, Pennsylvania, USA"
+    },
+    {
+      "institution": "Sree Vidyanikethan Engineering College",
+      "area": "Electronics and Communication Engineering",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2016-07-01",
+      "endDate": "2020-10-01",
+      "location": "Tirupati, Andhra Pradesh, India"
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Resource Pro Operational Solutions Pvt Ltd",
+      "position": "Service Delivery Unit Associate",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "2020-09-15",
+      "endDate": "2022-03-15",
+      "summary": "Streamlined insurance workflows and improved operational efficiency for agents, brokers, and insurance providers.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Reduced workflow execution time by 20% using cloud-based insurance solutions.",
+        "Managed over 300 policy transactions monthly with 100% compliance.",
+        "Achieved 98% accuracy in tracking and managing insurance workflows."
       ]
     }
   ],
-  "volunteer": [
+  "projects": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "name": "AI-Powered EHR Management Platform",
+      "description": "Integrated OpenAI API for personalized prescriptions and improved EHR management.",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
+        "Enhanced prescription accuracy by 25% and reduced errors by 30%.",
+        "Developed a responsive UI with Salesforce Lightning Web Components."
+      ],
+      "keywords": ["AI", "Salesforce", "OpenAI API"],
+      "url": ""
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "name": "Mock REST API Server",
+      "description": "Developed a Node.js tool for faster API testing and prototyping.",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
+        "Reduced API testing time by 40% through automation.",
+        "Improved server performance by 20%."
+      ],
+      "keywords": ["Node.js", "Express", "JSON Server"],
+      "url": ""
     }
   ],
-  "awards": [
+  "certifications": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Speech Recognition Systems",
+      "date": "2023",
+      "awarder": "Microsoft",
+      "summary": ""
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Generative AI Fundamentals",
+      "date": "2023",
+      "awarder": "Databricks",
+      "summary": ""
+    },
+    {
+      "title": "Git and GitHub",
+      "date": "2023",
+      "awarder": "GitHub",
+      "summary": ""
     }
   ],
-  "references": [
-    {
-      "name": "Available upon request"
-    }
+  "interests": [
+    "Contributing to open-source projects",
+    "Solving coding challenges on LeetCode and HackerRank",
+    "Exploring DevOps practices and automation",
+    "Keeping up with advancements in AI, cloud computing, and cybersecurity"
   ]
 }
