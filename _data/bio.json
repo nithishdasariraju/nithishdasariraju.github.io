@@ -6,7 +6,7 @@
     "email": "dasarirajunithish22@gmail.com",
     "phone": "814-844-2112",
     "website": "https://nithishdasariraju.github.io",
-    "summary": "Entry-level Software Engineer with a strong foundation in computer science principles, proficient in Python, C, Java, and C++. Skilled in designing and developing scalable, distributed systems, and solving complex problems. Passionate about advancing cloud infrastructure innovations with a focus on secure, efficient, and optimized code.",
+    "summary": "Software Engineer with a strong foundation in computer science principles and a passion for developing scalable, efficient, and reliable software solutions. Proficient in Python, Java, C, and SQL, with expertise in designing, testing, and deploying applications across diverse domains. Skilled in collaborating within agile development environments, implementing robust algorithms, and optimizing code for performance. Experienced in leveraging cloud platforms like AWS, DevOps practices, and automation tools to streamline workflows and enhance productivity. Dedicated to solving complex technical challenges, delivering impactful user experiences, and driving innovation through cutting-edge technologies.",
     "location": {
       "address": "",
       "postalCode": "16507",
@@ -27,10 +27,16 @@
       }
     ]
   },
+  "interests": [
+    { "name": "Contributing to open-source projects" },
+    { "name": "Solving coding challenges on LeetCode and HackerRank" },
+    { "name": "Exploring DevOps practices and automation" },
+    { "name": "Keeping up with advancements in AI, cloud computing, and cybersecurity" }
+  ],
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": ["C", "C++", "Python", "Java"]
+      "keywords": ["Python", "Java", "C"]
     },
     {
       "name": "Development Tools",
@@ -128,10 +134,4 @@
       "summary": ""
     }
   ],
-  "interests": [
-    "Contributing to open-source projects",
-    "Solving coding challenges on LeetCode and HackerRank",
-    "Exploring DevOps practices and automation",
-    "Keeping up with advancements in AI, cloud computing, and cybersecurity"
-  ]
 }
