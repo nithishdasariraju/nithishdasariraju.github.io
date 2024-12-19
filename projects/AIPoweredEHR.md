@@ -30,26 +30,4 @@ Key Features:
 4. **Data Security**: Implemented encryption and role-based access controls to ensure HIPAA compliance and safeguard patient data.
 5. **Impact**: Achieved a 25% improvement in prescription accuracy and a 30% reduction in errors through comprehensive testing, boosting provider efficiency.
 
-
-Here is an example code snippet used in the integration:
-
-```python
-# Example code for calling the OpenAI API for prescription recommendations
-import openai
-
-def get_prescription_recommendation(patient_data):
-    openai.api_key = "your_openai_api_key"
-    response = openai.Completion.create(
-        engine="text-davinci-003",
-        prompt=f"Provide medication recommendations for the following patient data: {patient_data}",
-        max_tokens=150
-    )
-    return response.choices[0].text.strip()
-
-# Example usage
-patient_data = "Patient with diabetes and high blood pressure"
-recommendation = get_prescription_recommendation(patient_data)
-print(recommendation)
-```
-
 This project demonstrates the potential of combining AI and cloud-based platforms to revolutionize healthcare delivery. Let me know if you'd like to learn more or see additional features in action!
