@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/vacay/vacay-square.png
-title: "Vacay"
+title: "AI-Powered EHR & Prescription Platform"
 date: 2015
 published: true
 labels:
