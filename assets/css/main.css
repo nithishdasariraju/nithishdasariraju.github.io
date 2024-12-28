@@ -747,7 +747,14 @@ section,
   background-color: var(--accent-color);
 }
 
+/* Media query for mobile adjustments */
 @media (max-width: 768px) {
+  .hero img {
+    height: 50vh; /* Adjust the height for mobile screens */
+    object-fit: cover;
+    object-position: center; /* Center the image */
+  }
+
   .hero h2 {
     font-size: 32px;
   }
@@ -756,6 +763,7 @@ section,
     font-size: 20px;
   }
 }
+
 
 /*--------------------------------------------------------------
 # About Section
