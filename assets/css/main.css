@@ -704,6 +704,24 @@ section,
   z-index: 1;
 }
 
+.hero .desktop-image {
+  display: block;
+}
+
+.hero .mobile-image {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hero .desktop-image {
+    display: none;
+  }
+
+  .hero .mobile-image {
+    display: block;
+  }
+}
+
 .hero .container {
   position: relative;
   z-index: 3;
@@ -756,6 +774,7 @@ section,
     font-size: 20px;
   }
 }
+
 
 /*--------------------------------------------------------------
 # About Section
