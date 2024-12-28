@@ -684,31 +684,38 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+/* Hero Section */
 .hero {
   width: 100%;
   min-height: 100vh;
   position: relative;
-  padding: 80px 0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.hero img {
+.hero .desktop-image,
+.hero .mobile-image {
   position: absolute;
   inset: 0;
-  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
   z-index: 1;
 }
 
+/* By default, show only the desktop image */
+.hero .mobile-image {
+  display: none;
+}
+
 .hero .container {
   position: relative;
   z-index: 3;
+  text-align: center; /* Center content for both versions by default */
 }
 
+/* Heading and tagline styling for desktop */
 .hero h2 {
   margin: 0;
   font-size: 64px;
@@ -718,11 +725,6 @@ section,
 .hero p {
   margin: 5px 0 0 0;
   font-size: 26px;
-}
-
-.hero p span {
-  letter-spacing: 1px;
-  border-bottom: 2px solid var(--accent-color);
 }
 
 .hero .social-links {
@@ -747,7 +749,25 @@ section,
   background-color: var(--accent-color);
 }
 
+/* Media Query for Mobile Version */
 @media (max-width: 768px) {
+  /* Show mobile image and hide desktop image */
+  .hero .desktop-image {
+    display: none;
+  }
+
+  .hero .mobile-image {
+    display: block;
+  }
+
+  /* Adjust container position for mobile */
+  .hero .container {
+    position: relative;
+    bottom: 50px; /* Push content down for mobile */
+    text-align: center;
+  }
+
+  /* Reduce heading and tagline font sizes for better readability */
   .hero h2 {
     font-size: 32px;
   }
@@ -755,7 +775,13 @@ section,
   .hero p {
     font-size: 20px;
   }
+
+  /* Social links adjustments */
+  .hero .social-links {
+    margin-top: 15px;
+  }
 }
+
 
 /*--------------------------------------------------------------
 # About Section
