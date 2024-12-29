@@ -709,6 +709,10 @@ section,
 .hero .container {
   position: relative;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns text and icons to the left */
+  padding-left: 10%; /* Adds space on the left for desktop */
 }
 
 .hero h2 {
@@ -753,6 +757,12 @@ section,
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
+  .hero .container {
+    align-items: center; /* Centers text and icons for mobile */
+    padding-left: 0; /* Removes left padding */
+    margin-top: -20%; /* Moves content slightly upwards */
+  }
+
   .hero h2 {
     font-size: 32px;
   }
