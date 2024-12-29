@@ -760,7 +760,7 @@ section,
   .hero .container {
     align-items: center; /* Centers text and icons for mobile */
     padding-left: 0; /* No left padding for mobile */
-    margin-top: -35%; /* Moves content further upwards for mobile */
+    margin-top: -50%; /* Moves content further upwards for mobile */
   }
 
   .hero h2 {
