@@ -692,7 +692,7 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('./hero-bg.jpg'); /* Use background-image */
+  background-image: url('assets/img/hero-bg.jpg'); /* Use background-image */
   background-size: cover; /* Ensures the image scales properly */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat;
