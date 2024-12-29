@@ -692,14 +692,16 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('assets/img/hero-bg.jpg'); /* Use background-image */
-  background-size: cover; /* Ensures the image scales properly */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat;
 }
 
 .hero img {
-  display: none; /* Hide the img tag since we're using background-image */
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
 }
 
 .hero .container {
@@ -711,13 +713,11 @@ section,
   margin: 0;
   font-size: 64px;
   font-weight: 700;
-  color: #fff; /* Ensure text is visible over the background */
 }
 
 .hero p {
   margin: 5px 0 0 0;
   font-size: 26px;
-  color: #ddd; /* Ensure text is visible over the background */
 }
 
 .hero p span {
@@ -747,13 +747,7 @@ section,
   background-color: var(--accent-color);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
-  .hero {
-    background-size: contain; /* Adjust image size for mobile screens */
-    min-height: 70vh; /* Adjust height for mobile */
-  }
-
   .hero h2 {
     font-size: 32px;
   }
@@ -762,7 +756,6 @@ section,
     font-size: 20px;
   }
 }
-
 
 /*--------------------------------------------------------------
 # About Section
