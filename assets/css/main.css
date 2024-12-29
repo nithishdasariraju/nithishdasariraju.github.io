@@ -711,8 +711,8 @@ section,
   z-index: 2;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Aligns text and icons to the left */
-  padding-left: 10%; /* Adds space on the left for desktop */
+  align-items: flex-start; /* Aligns text and icons to the left for desktop */
+  padding-left: 6%; /* Moves further left for desktop */
 }
 
 .hero h2 {
@@ -759,8 +759,8 @@ section,
 @media (max-width: 768px) {
   .hero .container {
     align-items: center; /* Centers text and icons for mobile */
-    padding-left: 0; /* Removes left padding */
-    margin-top: -20%; /* Moves content slightly upwards */
+    padding-left: 0; /* No left padding for mobile */
+    margin-top: -25%; /* Moves content further upwards for mobile */
   }
 
   .hero h2 {
@@ -770,37 +770,6 @@ section,
   .hero p {
     font-size: 20px;
   }
-}
-
-
-/*--------------------------------------------------------------
-# About Section
---------------------------------------------------------------*/
-.about .content h2 {
-  font-weight: 700;
-  font-size: 24px;
-}
-
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.about .content ul strong {
-  margin-right: 10px;
-}
-
-.about .content ul i {
-  font-size: 16px;
-  margin-right: 5px;
-  color: var(--accent-color);
-  line-height: 0;
 }
 
 /*--------------------------------------------------------------
